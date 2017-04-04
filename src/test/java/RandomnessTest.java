@@ -1,6 +1,5 @@
 import org.junit.Test;
-
-import java.io.FileNotFoundException;
+import pause.RandomPause;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;

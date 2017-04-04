@@ -1,3 +1,5 @@
+package pause;
+
 import random.Randomizer;
 
 /**
