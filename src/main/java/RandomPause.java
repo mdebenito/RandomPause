@@ -18,7 +18,7 @@ public class RandomPause {
         return rand;
     }
     /**
-     * Pauses the thred for a random amount of milliseconds between min and max values
+     * Pauses the thread for a random amount of milliseconds between min and max values
      * @param max Maximum amount of milliseconds to pause
      * @param min Minimum amount of milliseconds paused
      * @return milliseconds paused
@@ -44,18 +44,34 @@ public class RandomPause {
         return rand;
     }
 
+    /**
+     * Returns currently set minimum milliseconds
+     * @return
+     */
     public static int getMinMillis() {
         return MIN_MILLIS;
     }
 
+    /**
+     * Sets minimum milliseconds value
+     * @param minMillis
+     */
     public static void setMinMillis(int minMillis) {
         MIN_MILLIS = minMillis;
     }
 
+    /**
+     * Returns currently set maximum milliseconds
+     * @return
+     */
     public static int getMaxMillis() {
         return MAX_MILLIS;
     }
 
+    /**
+     * Sets maximum milliseconds value
+     * @param maxMillis
+     */
     public static void setMaxMillis(int maxMillis) {
         MAX_MILLIS = maxMillis;
     }
