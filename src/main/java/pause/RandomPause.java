@@ -6,8 +6,12 @@ import random.Randomizer;
  * Created by Mario de Benito on 04/04/2017.
  */
 public class RandomPause {
-    private static int MIN_MILLIS = 10;
-    private static int MAX_MILLIS = 500;
+	
+	
+	private RandomPause(){}
+	
+    private static int final MIN_MILLIS = 10;
+    private static int final MAX_MILLIS = 500;
 
     /**
      * Pauses the thread for a random amount of milliseconds between MIN_MILLIS and MAX_MILLIS

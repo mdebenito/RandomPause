@@ -8,6 +8,8 @@ import java.util.Random;
  * http://stackoverflow.com/questions/363681/how-to-generate-random-integers-within-a-specific-range-in-java
  */
 public class Randomizer {
+	
+	private Randomizer(){}
 
     /**
      * Returns a pseudo-random number between min and max, inclusive.
@@ -23,8 +25,6 @@ public class Randomizer {
         Random rand = new Random();
         // nextInt is normally exclusive of the top value,
         // so add 1 to make it inclusive
-        int randomNum = rand.nextInt((max - min) + 1) + min;
-
-        return randomNum;
+        return rand.nextInt((max - min) + 1) + min;
     }
 }
